@@ -1,10 +1,10 @@
 console.log(2 == 2)
-console.log(2>3)
+console.log(2 > 3)
 console.log(2!= 3)
 
 console.log(null == 0)
-console.log(null>2)
-console.log(null<2)
+console.log(null > 2)
+console.log(null < 2)
 
 //null is converted 0(zero) during comparisions operators like (<,>!=) for == null is not converted to 0
 
