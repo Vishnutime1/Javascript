@@ -24,8 +24,28 @@ let villan = function(){
     console.log("Hello world")
 };
 
-console.log(typeof(heros))
-console.log(typeof(hero))
-console.log(typeof(villan))
+// console.log(typeof(heros))
+// console.log(typeof(hero))
+// console.log(typeof(villan))
+
+let userOne = "Vishnu" 
+let UserTwo = userOne
+UserTwo ="Reddy"
+
+// console.log(userOne)
+// console.log(UserTwo)
+
+
+let PlayerOne ={email : "vishnu @google.com"}
+let PlayerTwo = PlayerOne
+
+PlayerTwo.email = "reedy.com";
+
+console.log(PlayerOne)
+console.log(PlayerTwo)
+
+
+
+
 
 
