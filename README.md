@@ -1,2 +1,3 @@
 # Javascript
-Code repo for Javascript
+-   Code repo for Javascript
+-   Fundamentals of Javascript
