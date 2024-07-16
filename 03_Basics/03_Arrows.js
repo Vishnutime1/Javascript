@@ -1,14 +1,15 @@
-// const chai = {
-//     username : "Vishnu",
-//     Price : 1000000,
+const chai = {
+    username : "Vishnu",
+    Price : 1000000,
 
-//     WelcomeMessage : function() {
-//         console.log(`Hi ${this.username},is here `);
-//         console.log(this);
-//     }
-// }
+    WelcomeMessage : function() {
+        console.log(`Hi ${this.username},is here `);
+        console.log(this);
+    }
+}
+// console.log(chai);
 
-// chai.WelcomeMessage()
+chai.WelcomeMessage()
 // chai.username ="Reddy"
 // chai.WelcomeMessage()
 
@@ -25,7 +26,7 @@
 //     console.log(this)
 // }
 
-//  console.log(chai())// In arrow the this is empty object {}
+//  console.log(chai())// In arrow this is empty object {}
 
 // let num1 =2
 // let num2 =3
