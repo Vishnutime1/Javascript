@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur Code</title>
+</head>
+<body>
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+</body>
+<script>
+    function addElement(name){
+        const li = document.createElement('li')
+        li.innerHTML = `${name}`
+        document.querySelector('.language').appendChild(li)
+
+    }
+   addElement('Python')
+
+   function optElement(petname){
+    const li = document.createElement('li')
+    li.appendChild(document.createTextNode(petname))
+    document.querySelector('.language').appendChild(li)
+   }
+   optElement('TypeScript')
+
+   //Edit
+  const secLang = document.querySelector('li:nth-child(2)')
+  console.log(secLang)
+//   secLang.innerHTML ="Java"
+const li = document.createElement('li')
+li.textContent ="Lava"
+secLang.replaceWith(li)
+
+  const third = document.querySelector('li:firs')
+</script>
+</html>
